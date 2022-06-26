@@ -1,7 +1,7 @@
 ## Week 1 & 2
 ### Working on Hard-Cut detector
 
-In these two weeks, I primarily worked on the previously worked on the previosuly developed Hard-Cut Detector module of the FilmEditDetection tool. Primarily three additions were made to the module : 
+In these two weeks, I worked on the previosuly developed Hard-Cut Detector module of the FilmEditDetection tool. Primarily three additions were made to the module : 
 
 - A system to plug and play any CNN model of choice in the hard-cut detector module using a network configuration file.
 - Option to parallely process different parts of the film in different CPU cores.
@@ -25,7 +25,7 @@ As the entire process is heavily time-consuming, a progress bra which would help
 
 ![alt text](https://github.com/tre3x/tre3x.github.io/blob/main/progress-bar.gif?raw=true)
 
-Upon testing a wide variety of films, with a number of CNN models in the hard cut detection module, I found that ResNet50 and VGG16 are the CNNs which performed way better than the rest in terms of computational time and performance. ResNet50 with a threshold of 0.75 and VGG16 with a threshold of 0.85 can be the go-to networks for the hard-cut detection module. The network config file are preovided in the repository. ResNet50 is slightly more accurate than VGG16, but VGG16 does computation faster about 10% than ResNet50. It is confirmed that these networks can handle the 'over-exposed' film which were an issue to the previous version of the tool. 
+Upon testing a wide variety of films, with a number of CNN models in the hard cut detection module, I found that ResNet50 and VGG16 are the CNNs which performed way better than the rest in terms of computational time and performance. ResNet50 with a threshold of 0.75 and VGG16 with a threshold of 0.85 can be the go-to networks for the hard-cut detection module. The network config file are preovided in the repository. ResNet50 is slightly more accurate than VGG16(in terms of eliminating the false positives), but VGG16 does computation faster about 10% than ResNet50. It is confirmed that these networks can handle the 'over-exposed' film which were an issue to the previous version of the tool. 
 
 I have also updated the documentation about the usage of the tool.
 
