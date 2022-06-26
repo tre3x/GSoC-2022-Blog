@@ -23,8 +23,7 @@ It has been observed that there is a reduction of 20% computational time by para
 
 As the entire process is heavily time-consuming, a progress bra which would help in keeping track of the entire process, like the percentage completed, estimated time left would be really handy. The discussed functionality has been added to the tool using the python library `tqdm`.
 
-
-
+![alt text](https://github.com/tre3x/tre3x.github.io/blob/main/progress-bar.gif?raw=true)
 
 Upon testing a wide variety of films, with a number of CNN models in the hard cut detection module, I found that ResNet50 and VGG16 are the CNNs which performed way better than the rest in terms of computational time and performance. ResNet50 with a threshold of 0.75 and VGG16 with a threshold of 0.85 can be the go-to networks for the hard-cut detection module. The network config file are preovided in the repository. ResNet50 is slightly more accurate than VGG16, but VGG16 does computation faster about 10% than ResNet50. It is confirmed that these networks can handle the 'over-exposed' film which were an issue to the previous version of the tool. 
 
