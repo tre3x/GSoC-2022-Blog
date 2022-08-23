@@ -1,1 +1,3 @@
 theme: jekyll-theme-time-machine
+title: FilmEditDetection
+description: A tool to detect cuts in archival films.
