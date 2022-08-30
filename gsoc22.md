@@ -38,3 +38,9 @@ cinemetrics server for obtaining statistical insights into the film.
 [Go to Blog](https://tre3x.github.io/blog4)
 
 This is a feature added newly to the tool, which involves upload the cut detection results of the film to the cinemetrics server, the further analysis of the film are available at [http://www.cinemetrics.lv/database.php]. 
+
+### Blog 5 : Added Graphical User Interface to the tool
+
+[Go to Blog](https://tre3x.github.io/blog5)
+
+A Graphical User Interface of the tool has been developed which contains all the functionality and features of the command line tool. The interface has been developed using the python framework pyQT. 
