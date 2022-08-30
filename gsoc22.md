@@ -32,3 +32,9 @@ In these two weeks, I worked on the generation of clips which either contains a 
 
 A feature has been added to the tool 'FilmEditDetection', by which the tool is now able to generate a '.cms' file, containing cut information, which can be uploaded in the 
 cinemetrics server for obtaining statistical insights into the film.
+
+### Blog 4 : Added feature to upload results to Cinemetrics Server
+
+[Go to Blog](https://tre3x.github.io/blog4)
+
+This is a feature added newly to the tool, which involves upload the cut detection results of the film to the cinemetrics server, the further analysis of the film are available at [http://www.cinemetrics.lv/database.php]. 
