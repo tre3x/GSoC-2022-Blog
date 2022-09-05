@@ -44,3 +44,9 @@ This is a feature added newly to the tool, which involves upload the cut detecti
 [Go to Blog](https://tre3x.github.io/blog5)
 
 A Graphical User Interface of the tool has been developed which contains all the functionality and features of the command line tool. The interface has been developed using the python framework pyQT. 
+
+### Blog 5 : Final Blog
+
+[Go to Blog](https://tre3x.github.io/final)
+
+This year, a lot of new features have been added to the tool ‘FilmEditDetection’, as a part of the program Google Summer of Code 2022. The added features mainly focussed on the following dimensions of the tool - Processing Speed, Accuracy of the tool, command line processing interface, operations it can handle, and graphical user interface of the tool.
